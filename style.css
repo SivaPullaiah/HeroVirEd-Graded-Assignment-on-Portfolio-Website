@@ -1,0 +1,373 @@
+* {
+    font-family: 'gilmer', sans-serif;
+    color: rgba(0, 0, 0, 0.7);
+}
+.black {
+  color: #000;
+}
+.white {
+  color: rgba(255, 255, 255, 0.7);
+}
+/* nav */
+.home-img {
+    object-fit: contain;
+    height: 550px;
+}
+.header-contatiner-resume {
+    width: 100%;
+}
+.blur-header {
+    background-color: #9393931a;
+    backdrop-filter: blur(20px);
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.wrapper {
+    background: rgba(128, 128, 128, 0);
+    position: relative;
+  }
+  .background-shape {
+    background: #3a86ff;
+    width: 100%;
+    height: 300px;
+    -ms-transform: skewY(-20deg);
+    -webkit-transform: skewY(-20deg);
+    transform: skewY(-20deg);
+    border-radius: 30px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  .content {
+    color: white;
+    position: relative;
+    top: 120px; 
+    z-index: 10;
+  }
+  /* follow */
+  .fa-brands {
+    color: black;
+    padding-right: 20px;
+    font-size: 22px;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  .fa-brands:hover, a:hover {
+    color: #fb5607 !important;
+  }
+
+/* articles */
+#articles {
+  margin-top: 100px;
+}
+.article-head {
+  background: url("https://cdn.iconscout.com/icon-pack/preview-mockup/digital-marketing-38-20036.png?f=avif&h=428&modified_at=1534571649");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.hash {
+  color: #919596;
+}
+.article {
+  height: auto;
+  width: auto;
+}
+
+.article1 {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.articlebg1 {
+  border-right: 2px solid rgb(226, 232, 240);
+  border-left: 2px solid rgb(226, 232, 240);
+  border-top: 2px solid rgb(226, 232, 240);
+  height: 170px;
+  overflow: hidden;
+}
+
+.aticle-head {
+  color: #919596;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.article-disc {
+  border-right: 2px solid rgb(226, 232, 240);
+  border-left: 2px solid rgb(226, 232, 240);
+  border-bottom: 2px solid rgb(226, 232, 240);
+  border-bottom-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  padding: 10px;
+}
+
+/* blogs */
+.blog {
+  height: auto;
+  margin-top: 30px;
+}
+.blog-head {
+  background: url("https://cdna.iconscout.com/img/get-started.23be618.png?f=avif&w=1000");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.blog1 {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 16px 32px;
+  width: 100%;
+  box-sizing: border-box;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.blogbg1 {
+  background-image: url("https://res.cloudinary.com/sivapullaiah/image/upload/v1680668633/siva_portfolio/blog1_jzva4l.avif");
+}
+
+.blogbg2 {
+  background-image: url("https://res.cloudinary.com/sivapullaiah/image/upload/v1680668638/siva_portfolio/blog4_a6plcs.avif");
+}
+
+.blogbg3 {
+  background-image: url("https://res.cloudinary.com/sivapullaiah/image/upload/v1680668636/siva_portfolio/blog3_ngt2l4.avif");
+}
+
+.blogbg4 {
+  background-image: url("https://res.cloudinary.com/sivapullaiah/image/upload/v1680668634/siva_portfolio/blog2_dguixz.avif");
+}
+
+.blog-heading {
+  padding: 0px;
+  margin: 0px;
+  color: #334155;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.blog-disc {
+  height: 160px;
+  overflow: hidden;
+  padding: 10px;
+  border-right: 2px solid rgb(226, 232, 240);
+  border-left: 2px solid rgb(226, 232, 240);
+  border-bottom: 2px solid rgb(226, 232, 240);
+  border-bottom-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+
+.expand:hover {
+  background-color: #11171d99;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.expand-img {
+  margin: 5px;
+  height: 30px;
+}
+.blogs:hover > .blog1:not(:hover) {
+  filter: blur(10px);
+  transform: scale(0.9, 0.9);
+}
+/* test */
+.containers {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.content {
+  padding: 20px;
+}
+
+.expand-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #ccc;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.blur-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(8px);
+  z-index: 2;
+  display: none;
+}
+
+/* projejects style*/
+.projects-container {
+  background-color: #fff;
+  height: auto;
+}
+
+.projects-head {
+  background: url("https://cdna.iconscout.com/img/pattern-mockup@2x.a82c484.png");
+  object-fit: contain;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.project1 {
+  border-radius: 10px;
+  margin: 18px;
+  transition: .6s ease-out;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.project1:hover {
+  transform: translateY(15px);
+}
+
+.pro1-banner {
+  padding: 0px;
+  margin: 0px;
+  height: auto;
+  width: 530px;
+  border-radius: 10px;
+  border: 2px;
+  border-style: solid;
+  border-bottom-color: #db4437;
+  border-top-color: #4285f4;
+  border-left-color: #0f9d58;
+  border-right-color: #f4b400;
+  cursor: pointer;
+}
+
+.image_wrapper {
+  position: relative;
+}
+
+.overlay {
+  color: #ffffff;
+  position: absolute; /* Positions the overlay absolutely within its containing element*/
+  background: #11171d99;
+      /* center overlay text */
+      display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.overlay_3 {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  transform: scale(0);
+  transition: all .3s ease-in-out;
+  backdrop-filter: blur(8px) brightness(80%);
+}
+
+.image_wrapper:hover .overlay_3 {
+  transform: scale(1);
+}
+
+/* footer */
+@font-face {
+  font-family: 'CustomFont';
+  src: url('https://lf16-fe.resso.me/obj/anote-fe/socrates/home-web/static/media/Gilmer-Outline.2825e847.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.Gilmer-Outline {
+  font-family: 'CustomFont', sans-serif;
+}
+@font-face {
+  font-family: 'Gilmer';
+  src: url('https://lf16-fe.resso.me/obj/anote-fe/socrates/home-file/static/media/Gilmer-Medium.71f3c551.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.gilmer {
+  font-family: 'Gilmer', sans-serif;
+}
+
+@font-face {
+  font-family: 'Bard-font';
+  src: url('https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+.bard-font {
+  font-family: 'Bard-font', sans-serif;
+}
+
+footer {
+  position: relative;
+  overflow: hidden;
+}
+
+#footer-video {
+  border-top-left-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.footer-content {
+  /* Style your footer content as desired */
+  color: #fff;
+  padding: 20px;
+}
+.footer-head {
+  font-size: 95px;
+  font-weight: bold;
+}
+.strink-img {
+  height: 140px;
+}
+@media (max-width: 767px) {
+  .footer-head {
+    font-size: 40px;
+  }
+  .strink-img {
+    height: 80px;
+  }
+  .pro1-banner {
+    width: 350px;
+  }
+  .strink-font-size{
+    font-size: 24px;
+  }
+}
+
+#mail:hover {
+  text-decoration: none;
+}
+.hr {
+  border: none;
+  height: 1px;
+  background-color: white;
+  width: 90%;
+}
